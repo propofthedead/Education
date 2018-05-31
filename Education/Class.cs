@@ -13,7 +13,7 @@ namespace Education
 		public string Code { get; set; }
 		public int Capacity { get; set; }
 		public Instructor Instructor { get; set; }
-		public Student[] Students = new Student[16];
+		public List<Student> Students= new List<Student>();
 
 
 

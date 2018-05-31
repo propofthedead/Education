@@ -24,6 +24,23 @@ namespace Education
 			dotNet4.Name = "dotNet Boot Camp 4";
 			dotNet4.Instructor = danTheMan;
 
+
+			Student foster = new Student();
+			foster.absences = 0;
+			foster.ContactInfo = "Call Foster ....";
+			foster.FirstJob = DateTime.MinValue;
+			foster.Name = "Foster Stulen";
+			foster.course = dotNet4;
+
+			Student johnyboy = new Student();
+			johnyboy.absences = 0;
+			johnyboy.ContactInfo = "Call Jonathan";
+			johnyboy.FirstJob = DateTime.MinValue;
+			johnyboy.Name = "Jonathan";
+			johnyboy.course = dotNet4;
+
+			dotNet4.Students.Add( foster);
+			dotNet4.Students.Add(johnyboy);
 		}
 	}
 }
