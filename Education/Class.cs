@@ -24,7 +24,16 @@ namespace Education
 		public Instructor Instructor { get; set; }
 		public List<Student> Students= new List<Student>();
 
-
+		public void DistributeAssigment(Assignment angs)
+		{
+			foreach (Student student in Students) {
+				Assignment an = new Assignment();
+				an.Name = angs.Name;
+				an.AssignmentId = angs.AssignmentId;
+				an.Comments = angs.Comments;
+				an.Grade = angs.Grade;
+			}
+		}
 
 	}
 }

@@ -42,11 +42,17 @@ namespace Education
 			dotNet4.Students.Add( foster);
 			dotNet4.Students.Add(johnyboy);
 
+			Assignment asg1 =danTheMan.createAssignment("Fudaments Assignment 2", "Fudamentals 13");
+			/*
 			Assignment asg1 = new Assignment();
 			asg1.AssignmentId = "Fudamentals 12";
 			asg1.Comments = null;
 			asg1.Grade = null;
-			asg1.Name="First Fudamentals Assignment"
+			asg1.Name = "First Fudamentals Assignment";
+			*/
+
+			foster.Assignments.Add(asg1);
+			johnyboy.Assignments.Add(asg1);
 		}
 	}
 }
