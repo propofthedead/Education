@@ -28,14 +28,14 @@ namespace Education
 			Student foster = new Student();
 			foster.absences = 0;
 			foster.ContactInfo = "Call Foster ....";
-			foster.FirstJob = DateTime.MinValue;
+			foster.FirstJob = null;
 			foster.Name = "Foster Stulen";
 			foster.course = dotNet4;
 
 			Student johnyboy = new Student();
 			johnyboy.absences = 0;
 			johnyboy.ContactInfo = "Call Jonathan";
-			johnyboy.FirstJob = DateTime.MinValue;
+			johnyboy.FirstJob = null;
 			johnyboy.Name = "Jonathan";
 			johnyboy.course = dotNet4;
 

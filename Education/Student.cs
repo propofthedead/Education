@@ -11,7 +11,7 @@ namespace Education
 		public string Name { get; set; }
 		public Class course { get; set; }
 		public string ContactInfo { get; set; }
-		public DateTime FirstJob { get; set; }
+		public  DateTime? FirstJob { get; set; }
 		public int absences { get; set; }
 
 	}
