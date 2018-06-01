@@ -13,14 +13,14 @@ namespace Education
 			Instructor danTheMan = new Instructor();
 			danTheMan.name = "Dan";
 			danTheMan.ExperienceInYears = 17;
-			danTheMan.PrimaryLanguage = "Csharp";
+			danTheMan.PrimaryLanguage = "CSharp";
 			danTheMan.Email = "dantheman@military.gov";
 			danTheMan.Phone = "123-456-7890";
 
 			Class dotNet4 = new Class();
 			dotNet4.Capacity = 16;
 			dotNet4.Code = "DN4";
-			dotNet4.Language = "Csharp";
+			dotNet4.Language = "CSharp";
 			dotNet4.Name = "dotNet Boot Camp 4";
 			dotNet4.Instructor = danTheMan;
 
@@ -41,6 +41,12 @@ namespace Education
 
 			dotNet4.Students.Add( foster);
 			dotNet4.Students.Add(johnyboy);
+
+			Assignment asg1 = new Assignment();
+			asg1.AssignmentId = "Fudamentals 12";
+			asg1.Comments = null;
+			asg1.Grade = null;
+			asg1.Name="First Fudamentals Assignment"
 		}
 	}
 }

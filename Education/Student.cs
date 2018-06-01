@@ -13,6 +13,6 @@ namespace Education
 		public string ContactInfo { get; set; }
 		public  DateTime? FirstJob { get; set; }
 		public int absences { get; set; }
-
+		public List<Assignment> Assignments = new List<Assignment>();
 	}
 }
