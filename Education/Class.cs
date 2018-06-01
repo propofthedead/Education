@@ -32,6 +32,7 @@ namespace Education
 				an.AssignmentId = angs.AssignmentId;
 				an.Comments = angs.Comments;
 				an.Grade = angs.Grade;
+				student.Assignments.Add(an);
 			}
 		}
 

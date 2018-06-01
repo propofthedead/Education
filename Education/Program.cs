@@ -50,9 +50,10 @@ namespace Education
 			asg1.Grade = null;
 			asg1.Name = "First Fudamentals Assignment";
 			*/
+			dotNet4.DistributeAssigment(asg1);
 
-			foster.Assignments.Add(asg1);
-			johnyboy.Assignments.Add(asg1);
+			//foster.Assignments.Add(asg1);
+			//johnyboy.Assignments.Add(asg1);
 		}
 	}
 }
