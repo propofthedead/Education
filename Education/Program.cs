@@ -54,6 +54,15 @@ namespace Education
 
 			//foster.Assignments.Add(asg1);
 			//johnyboy.Assignments.Add(asg1);
+			try {
+				int x = 0;
+				int y = 1 / x;
+			} catch (DivideByZeroException ex) {
+				Console.WriteLine(ex.Message);
+				Console.ReadLine();
+			} catch (Exception ex) {
+				throw ex;
+			}
 		}
 	}
 }
